@@ -1,18 +1,21 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(appBar: AppBar(
-        backgroundColor: Colors.black,
+      home: 
+      Scaffold ( 
+        backgroundColor: Colors.greenAccent,
+        appBar: AppBar(
+        backgroundColor: Colors.grey,
         title: Center (child: Text("Test_one"),) ), 
-      body: Center(child: Text("first code"),),),
+      body: 
+      Center(
+        child: Text("first code"),),),
      
     );
   }
